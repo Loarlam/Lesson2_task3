@@ -14,6 +14,8 @@ namespace Task3
     {
         static void Main(string[] args)
         {
+            /*В поле EmployeePosition на 21 строке можно вставить: Тестировщик, Программист, Инженер/
+             В поле EmployeeExperience на 22 строке можно вставить целые значения от 0 и до 2147483647*/
             Employee employee = new Employee("Николай", "Робов") 
             { 
                 EmployeePosition = "Тестировщик", 
