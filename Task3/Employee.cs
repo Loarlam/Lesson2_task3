@@ -6,7 +6,7 @@ namespace Task3
     {
         string name, surname, employeePosition;
         int employeeExperience;
-        double employeeSalaryGross = 0;
+        double employeeSalaryGross;
 
         public Employee(string name, string surname)
         {
